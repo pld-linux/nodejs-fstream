@@ -3,7 +3,7 @@ Summary:	Advanced file system stream things
 Name:		nodejs-%{pkg}
 Version:    0.1.18
 Release:	1
-License:	MIT
+License:	BSD
 Group:		Development/Libraries
 URL:		https://github.com/isaacs/fstream
 Source0:	http://registry.npmjs.org/fstream/-/%{pkg}-%{version}.tgz
