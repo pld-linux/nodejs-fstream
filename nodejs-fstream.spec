@@ -1,7 +1,7 @@
 %define		pkg	fstream
 Summary:	Advanced file system stream things
 Name:		nodejs-%{pkg}
-Version:    0.1.18
+Version:	0.1.18
 Release:	1
 License:	BSD
 Group:		Development/Libraries
@@ -10,10 +10,10 @@ Source0:	http://registry.npmjs.org/fstream/-/%{pkg}-%{version}.tgz
 # Source0-md5:	6be2e790599da6a5f5a3bc9baf57f3b4
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
-Requires:	nodejs-graceful-fs
-Requires:	nodejs-inherits
-Requires:	nodejs-mkdirp
-Requires:	nodejs-rimraf
+Requires:	nodejs-graceful-fs >= 1.0.0
+Requires:	nodejs-inherits >= 1.0.0
+Requires:	nodejs-mkdirp >= 0.3
+Requires:	nodejs-rimraf >= 2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
