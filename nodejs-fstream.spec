@@ -1,12 +1,12 @@
 %define		pkg	fstream
 Summary:	Advanced file system stream things
 Name:		nodejs-%{pkg}
-Version:	0.1.28
+Version:	0.1.29
 Release:	1
 License:	BSD
 Group:		Development/Libraries
 Source0:	http://registry.npmjs.org/fstream/-/%{pkg}-%{version}.tgz
-# Source0-md5:	3303e8f98e6635e4036389b01c945343
+# Source0-md5:	fa9862a8ba9c8d27c06b2ce0565d5b47
 URL:		https://github.com/isaacs/fstream
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
