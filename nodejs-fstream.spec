@@ -2,7 +2,7 @@
 Summary:	Advanced file system stream things
 Name:		nodejs-%{pkg}
 Version:	1.0.2
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Libraries
 Source0:	http://registry.npmjs.org/fstream/-/%{pkg}-%{version}.tgz
